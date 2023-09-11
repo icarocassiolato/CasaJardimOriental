@@ -9,16 +9,19 @@
 	max-width: 100%;
 }
 
-.carousel-control {
-}
-
 .carousel-image {
     max-width: 100%;
-    max-height: 50vh;
-    
-    height: 50vh;
+    max-height: 50vh;    
     display: block; /* Define a imagem como bloco para centralizá-la verticalmente */
     margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.carousel-inner {
+    text-align: center; /* Alinha horizontalmente o conteúdo do slider */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente o conteúdo do slider */
+    height: 100%; /* Altura do slider igual à altura do conteúdo centralizado */
 }
 
 .slide {
